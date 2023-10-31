@@ -1,0 +1,58 @@
+ul{
+    list-style: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+
+tr:next-child(even){
+    background-color: white;
+}
+
+.to_inline{
+    background-color: blue;
+    padding: 5px;
+    display: inline;
+    width: 500px;
+}
+
+.to_block{
+    padding: 5px;
+    display: block;
+    background-color: red;
+}
+
+.in_block{
+    padding: 5px;
+    border: 2 px solid black;
+    display: inline-block;
+    width: 200px;
+}
+
+.static{
+    position: static;
+    background-color: orange;
+    padding: 5px;
+}
+
+.fix {
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    right: 0;
+    top: 0;
+}
